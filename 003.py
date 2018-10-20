@@ -39,7 +39,7 @@ if (money >= 10000) :
 else :
     showMess = money
 print(showMess + "  元\n")
-"""
+
 
 #Range
 
@@ -69,3 +69,18 @@ for i in range(1, n+1):
     sum += i
 print(" 1 到 %d 的整數和 %d " % (n,sum))
 
+"""
+
+for i in range(1,10) :
+    for j in range(1,10):
+        product = i * j
+        print("%d*%d=%d " % (i,j, product), end = "")
+    print()
+        
+for i in range(1,11):
+    if (i == 6):
+        break
+    print(i,end = ",")
+    
+
+    
